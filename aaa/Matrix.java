@@ -23,7 +23,9 @@ public class Matrix<T> {
 		Random rand = new Random(System.currentTimeMillis());
 
 		for (int i = 0; i < this.rows * this.cols; i++) {
-
+			if(this.type == Integer.class) {
+				
+			}
 		}
 	}
 
